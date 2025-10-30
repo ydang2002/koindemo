@@ -1,4 +1,4 @@
-package com.mohsenmashkour.koindiyten.models
+package com.example.koindemo.models
 
 data class Language(
     val iso639_1: String,

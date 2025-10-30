@@ -1,6 +1,7 @@
 package com.example.koindemo.domain.repository
 
-import com.mohsenmashkour.koindiyten.models.CountriesItem
+import com.example.koindemo.models.CountriesItem
+
 
 interface MyRepository {
     suspend fun fetchCountries(): List<CountriesItem>

@@ -2,7 +2,7 @@ package com.example.koindemo.data.repository
 
 import com.example.koindemo.data.remote.ApiService
 import com.example.koindemo.domain.repository.MyRepository
-import com.mohsenmashkour.koindiyten.models.CountriesItem
+import com.example.koindemo.models.CountriesItem
 
 class MyRepositoryImpl(
     private val apiService: ApiService

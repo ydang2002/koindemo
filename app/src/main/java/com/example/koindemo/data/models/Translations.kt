@@ -1,4 +1,4 @@
-package com.mohsenmashkour.koindiyten.models
+package com.example.koindemo.models
 
 data class Translations(
     val br: String,

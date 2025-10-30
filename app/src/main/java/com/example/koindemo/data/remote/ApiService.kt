@@ -1,6 +1,6 @@
 package com.example.koindemo.data.remote
 
-import com.mohsenmashkour.koindiyten.models.CountriesItem
+import com.example.koindemo.models.CountriesItem
 import retrofit2.http.GET
 
 interface ApiService {

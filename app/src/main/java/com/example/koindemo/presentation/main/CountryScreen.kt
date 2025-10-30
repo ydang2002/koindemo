@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.mohsenmashkour.koindiyten.models.CountriesItem
+import com.example.koindemo.models.CountriesItem
 
 @Composable
 fun CountryScreen(viewModel: MainViewModel, modifier: Modifier = Modifier) {

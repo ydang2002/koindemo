@@ -1,10 +1,4 @@
-package com.mohsenmashkour.koindiyten.models
-
-import com.mohsenmashkour.koindiyten.models.Currency
-import com.mohsenmashkour.koindiyten.models.Flags
-import com.mohsenmashkour.koindiyten.models.Language
-import com.mohsenmashkour.koindiyten.models.RegionalBloc
-import com.mohsenmashkour.koindiyten.models.Translations
+package com.example.koindemo.models
 
 data class CountriesItem(
     val alpha2Code: String,
