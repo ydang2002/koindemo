@@ -5,6 +5,8 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+// Định nghĩa dependency
+// Sau khi start koin nếu nơi nào cần apiServices koin sẽ tạo ra apiServices bằng networkModule
 val networkModule = module {
     single {
         Retrofit.Builder()

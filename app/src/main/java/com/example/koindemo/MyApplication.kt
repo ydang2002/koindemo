@@ -10,7 +10,9 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin {
+            // Truyền context của app cho Koin
             androidContext(this@MyApplication)
+            // đăng ký các module chứa cách tạo dependency như network, repository.
             modules(
                 networkModule,
                 repositoryModule,
